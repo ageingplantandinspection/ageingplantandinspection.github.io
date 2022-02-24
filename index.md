@@ -1,2 +1,0 @@
-
-Ageing plant and infrastructure
