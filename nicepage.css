@@ -36718,17 +36718,28 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-btn-1 {
-    margin-top: -26px;
-    margin-right: 98px;
+    margin-top: -27px;
+    margin-right: 263px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-btn-1 {
-    margin-right: 0;
+    margin-top: -23px;
+    margin-right: 44px;
   }
 }
-
-
+@media (max-width: 767px) {
+  .u-header .u-btn-1 {
+    margin-top: 34px;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-btn-1 {
+    margin-right: 95px;
+  }
+}
  .u-footer {
   background-image: none;
 }
