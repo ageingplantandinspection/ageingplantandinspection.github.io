@@ -11,16 +11,41 @@
   font-size: 3rem;
   font-weight: 900;
   letter-spacing: 2px;
-  margin: 10px auto 60px;
+  margin: 10px 375px 60px 402px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 275px;
+    margin-left: 302px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 165px;
+    margin-left: 192px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 75px;
+    margin-left: 102px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 153px;
+    min-height: 147px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
+    width: auto;
+    margin-top: 18px;
+    margin-right: -70px;
+    margin-left: 70px;
   }
 } .u-section-2 {
   background-image: none;
